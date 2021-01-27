@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>E:\Alembic F2b\Alembic_F2b_bass_preamp\Alembic_F2b_bass_preamp.sch</source>
+    <date>04/12/2020 22:23:16</date>
+    <tool>Eeschema (5.1.8)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Alembic_F2b_bass_preamp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Line in</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/cliff-6-3-mono-switched-jack.html</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC9B060</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1M</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/xicon-carbon-film-resistor-1m-1-watt.html</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC9CD17</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>68K</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/xicon-carbon-film-resistor-68k-1-watt.html</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCA693C</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>68K</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/xicon-carbon-film-resistor-68k-1-watt.html</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCAB6CF</tstamp>
+    </comp>
+    <comp ref="V1">
+      <value>ECC83</value>
+      <footprint>Valve:Valve_Noval_P</footprint>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/jj-12ax7-ecc83s.html</field>
+      </fields>
+      <libsource lib="Valve" part="ECC83" description="double triode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCCE672</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100K 1W</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/xicon-carbon-film-resistor-100k-1-watt.html</field>
+        <field name="Power">1W</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCCEA7D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1.5K 0.5W</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/xicon-carbon-film-resistor-1-5k-1-watt.html</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCF856E</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>47µF 50V</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/elektrolyt-47-f-63-volt.html</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD1CB20</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100K 1W</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/xicon-carbon-film-resistor-100k-1-watt.html</field>
+        <field name="Power">1W</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD26DDC</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1.5K 0.5W</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/xicon-carbon-film-resistor-1-5k-1-watt.html</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD2ABCF</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>47µF 50V</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/elektrolyt-47-f-63-volt.html</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD2BD2A</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF 350V</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/mallory-150-s-0-1-f-630-vdc.html</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD37ADC</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>470pF 50V</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/ceramic-disk-capacitor-470-pf-2-kv.html</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD39DC7</tstamp>
+    </comp>
+    <comp ref="Sweep1">
+      <value>B100K</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/potentiometer-bourns-100k-lin-hrt.html</field>
+      </fields>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD4041F</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF 50V</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/mallory-150-s-0-1-f-630-vdc.html</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD47620</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>47nF 50V</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/sozo-blue-molded-0-047-f-500-v.html</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD48106</tstamp>
+    </comp>
+    <comp ref="Treble1">
+      <value>A250K</value>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/potentiometer-bourns-250k-log-hrt.html</field>
+      </fields>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD4E347</tstamp>
+    </comp>
+    <comp ref="Bass1">
+      <value>A250K</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/potentiometer-bourns-250k-log-hrt.html</field>
+      </fields>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD50EA8</tstamp>
+    </comp>
+    <comp ref="Midrange1">
+      <value>A50K</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/potentiometer-bourns-50k-log-hrt.html</field>
+      </fields>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD519E5</tstamp>
+    </comp>
+    <comp ref="Gain1.1">
+      <value>A1M DPDT</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/alpha-potentiometer-1-mohm-log-16-mm-dpdt-push-pull.html</field>
+      </fields>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD853FE</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>220pF 50V</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/ceramic-disk-capacitor-220-pf-2-kv.html</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD87CBD</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100nF 350V</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/mallory-150-s-0-1-f-630-vdc.html</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDCD11A</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>2.2M</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/xicon-carbon-film-resistor-2-2m-1-watt.html</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDEAC2B</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>2.2M</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/xicon-carbon-film-resistor-2-2m-1-watt.html</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDF0AF7</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>2.2M</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/xicon-carbon-film-resistor-2-2m-1-watt.html</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDF0FE2</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100nF 350V</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/mallory-150-s-0-1-f-630-vdc.html</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDF1619</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>IRF740</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/power-mosfet-irf740.html</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="IRF740" description="10A Id, 400V Vds, N-Channel Power MOSFET, 500mOhm Rds, TO-220AB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDF24F6</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100nF 350V</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/mallory-150-s-0-1-f-630-vdc.html</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE10145</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Line out</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/cliff-6-3-mono-switched-jack.html</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF3FB58</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>100µH</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/fixed-inductors-100-h.html</field>
+      </fields>
+      <libsource lib="pspice" part="INDUCTOR" description="Inductor symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF84551</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>220nF 50V</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/tubular-film-capacitor-0-22-f-630-v.html</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF89E21</tstamp>
+    </comp>
+    <comp ref="C100">
+      <value>100nF 50V</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/mallory-150-s-0-1-f-630-vdc.html</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF93E19</tstamp>
+    </comp>
+    <comp ref="VPump1">
+      <value>TT VPump +220VDC 15mA</value>
+      <footprint>Converter_DCDC:Converter_DCDC_TRACO_TMR-1-xxxx_Single_THT</footprint>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/tt-vpump-voltage-converter.html</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="TMR_1-1213" description="67mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, 15V fixed Output Voltage, SIP-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFB645F</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>100K 1W</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/xicon-carbon-film-resistor-100k-1-watt.html</field>
+        <field name="Power">1W</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFCC1AC</tstamp>
+    </comp>
+    <comp ref="Volume1">
+      <value>A500K</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/potentiometer-bourns-500k-log-hrt.html</field>
+      </fields>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF3566E</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>4.7K</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/xicon-carbon-film-resistor-4-7k-1-watt.html</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6003252F</tstamp>
+    </comp>
+    <comp ref="LED2">
+      <value>Bright</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/led-5-mm-yellow.html</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60034F1C</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>On/Off</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/led-5-mm-yellow.html</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600633A0</tstamp>
+    </comp>
+    <comp ref="R100">
+      <value>4.7K</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/xicon-carbon-film-resistor-4-7k-1-watt.html</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600639FA</tstamp>
+    </comp>
+    <comp ref="C200">
+      <value>100nF 50V</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/tubular-film-capacitor-0-1-f-630-v.html</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600A9E7F</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>Bright</value>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/alpha-footswitch-2-position-dpdt-on-on.html</field>
+      </fields>
+      <libsource lib="Switch" part="SW_DPST_x2" description="Single Pole Single Throw (SPST) switch, separate symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601756B0</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>On/Off</value>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/alpha-footswitch-3pdt-latching.html</field>
+      </fields>
+      <libsource lib="Switch" part="SW_DPDT_x2" description="Switch, dual pole double throw, separate symbols"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6028F6CD</tstamp>
+    </comp>
+    <comp ref="R200">
+      <value>1M</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">https://www.tube-town.net/ttstore/xicon-carbon-film-resistor-1m-1-watt.html</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6012EDDF</tstamp>
+    </comp>
+    <comp ref="SW1bis1">
+      <value>On/Off</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">Idem as SW1</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6030473A</tstamp>
+    </comp>
+    <comp ref="Gain1.2">
+      <value>Passive/Active</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Links">Idem as Gain1.1</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6030687D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="AudioJack2">
+      <description>Audio Jack, 2 Poles (Mono / TS)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack2</field>
+      </fields>
+      <pins>
+        <pin num="S" name="~" type="passive"/>
+        <pin num="T" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="TMR_1-0511">
+      <aliases>
+        <alias>TMR_1-0512</alias>
+        <alias>TMR_1-0513</alias>
+        <alias>TMR_1-0515</alias>
+        <alias>TMR_1-1211</alias>
+        <alias>TMR_1-1212</alias>
+        <alias>TMR_1-1213</alias>
+        <alias>TMR_1-1215</alias>
+        <alias>TMR_1-2411</alias>
+        <alias>TMR_1-2412</alias>
+        <alias>TMR_1-2413</alias>
+        <alias>TMR_1-2415</alias>
+        <alias>TMR_1-4811</alias>
+        <alias>TMR_1-4812</alias>
+        <alias>TMR_1-4813</alias>
+        <alias>TMR_1-4815</alias>
+      </aliases>
+      <description>200mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, 5V fixed Output Voltage, SIP-6</description>
+      <docs>http://assets.tracopower.com/TMR1/documents/tmr1-datasheet.pdf</docs>
+      <footprints>
+        <fp>Converter*DCDC*TRACO*TMR?1*Single*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TMR_1-0511</field>
+        <field name="Footprint">Converter_DCDC:Converter_DCDC_TRACO_TMR-1-xxxx_Single_THT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-VIN" type="power_in"/>
+        <pin num="2" name="+VIN" type="power_in"/>
+        <pin num="4" name="+VOUT" type="power_out"/>
+        <pin num="6" name="-VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DPDT_x2">
+      <description>Switch, dual pole double throw, separate symbols</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW*DPDT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DPDT_x2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DPST_x2">
+      <description>Single Pole Single Throw (SPST) switch, separate symbol</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DPST_x2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+        <pin num="4" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BUZ11">
+      <aliases>
+        <alias>IRF3205</alias>
+        <alias>IRF540N</alias>
+        <alias>IRF740</alias>
+        <alias>IRLB8721PBF</alias>
+        <alias>IRLZ34N</alias>
+        <alias>IRLZ44N</alias>
+        <alias>VNP10N07</alias>
+        <alias>IPP060N06N</alias>
+      </aliases>
+      <description>30A Id, 50V Vds, N-Channel Power MOSFET, TO-220</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BUZ11.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BUZ11</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Valve" part="ECC81">
+      <aliases>
+        <alias>ECC83</alias>
+      </aliases>
+      <description>double triode</description>
+      <docs>http://www.r-type.org/pdfs/ecc81.pdf</docs>
+      <footprints>
+        <fp>VALVE*NOVAL*P*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ECC81</field>
+        <field name="Footprint">Valve:Valve_Noval_P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="output"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="K" type="BiDi"/>
+        <pin num="4" name="F1" type="power_in"/>
+        <pin num="5" name="F1" type="power_in"/>
+        <pin num="6" name="A" type="output"/>
+        <pin num="7" name="G" type="input"/>
+        <pin num="8" name="K" type="BiDi"/>
+        <pin num="9" name="F2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="INDUCTOR">
+      <description>Inductor symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>E:\Programs\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>E:\Programs\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>E:\Programs\KiCad\share\kicad\library/Regulator_Switching.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>E:\Programs\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>E:\Programs\KiCad\share\kicad\library/Transistor_FET.lib</uri>
+    </library>
+    <library logical="Valve">
+      <uri>E:\Programs\KiCad\share\kicad\library/Valve.lib</uri>
+    </library>
+    <library logical="pspice">
+      <uri>E:\Programs\KiCad\share\kicad\library/pspice.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(V1-Pad9)">
+      <node ref="V1" pin="9"/>
+    </net>
+    <net code="2" name="Net-(C101-Pad1)">
+      <node ref="V1" pin="4"/>
+      <node ref="C101" pin="1"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="3" name="Earth">
+      <node ref="R101" pin="2"/>
+      <node ref="C101" pin="2"/>
+      <node ref="C100" pin="2"/>
+      <node ref="VPump1" pin="1"/>
+      <node ref="V1" pin="5"/>
+      <node ref="R100" pin="2"/>
+    </net>
+    <net code="4" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1"/>
+      <node ref="Volume1" pin="1"/>
+    </net>
+    <net code="5" name="Net-(LED2-Pad1)">
+      <node ref="R101" pin="1"/>
+      <node ref="LED2" pin="1"/>
+    </net>
+    <net code="6" name="Net-(LED2-Pad2)">
+      <node ref="SW3" pin="1"/>
+      <node ref="LED2" pin="2"/>
+    </net>
+    <net code="7" name="Net-(C10-Pad1)">
+      <node ref="R9" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="8" name="Net-(C11-Pad2)">
+      <node ref="R11" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="Gain1.1" pin="3"/>
+      <node ref="VPump1" pin="6"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="Midrange1" pin="3"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R200" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="J1" pin="T"/>
+      <node ref="J2" pin="T"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="Volume1" pin="3"/>
+    </net>
+    <net code="10" name="Net-(LED1-Pad1)">
+      <node ref="LED1" pin="1"/>
+      <node ref="R100" pin="1"/>
+    </net>
+    <net code="11" name="Net-(SW1-Pad6)">
+      <node ref="SW1" pin="6"/>
+      <node ref="Volume1" pin="2"/>
+    </net>
+    <net code="12" name="Net-(J2-PadS)">
+      <node ref="J2" pin="S"/>
+      <node ref="SW1" pin="5"/>
+    </net>
+    <net code="13" name="Net-(SW1-Pad1)">
+      <node ref="SW1" pin="4"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="14" name="Net-(J1-PadS)">
+      <node ref="J1" pin="S"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="15" name="Net-(C3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="V1" pin="1"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="16" name="Net-(Gain1.2-Pad2)">
+      <node ref="Gain1.2" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="17" name="Net-(LED1-Pad2)">
+      <node ref="SW1bis1" pin="1"/>
+      <node ref="LED1" pin="2"/>
+    </net>
+    <net code="18" name="Net-(C200-Pad2)">
+      <node ref="C200" pin="2"/>
+      <node ref="R200" pin="1"/>
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="19" name="Net-(C200-Pad1)">
+      <node ref="Gain1.2" pin="1"/>
+      <node ref="C200" pin="1"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="20" name="+12V">
+      <node ref="L1" pin="1"/>
+      <node ref="SW1bis1" pin="2"/>
+      <node ref="C100" pin="1"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="VPump1" pin="2"/>
+    </net>
+    <net code="21" name="Net-(C9-Pad2)">
+      <node ref="V1" pin="6"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C9" pin="2"/>
+    </net>
+    <net code="22" name="Net-(Gain1.1-Pad2)">
+      <node ref="Gain1.1" pin="2"/>
+      <node ref="SW3" pin="4"/>
+      <node ref="V1" pin="7"/>
+    </net>
+    <net code="23" name="Net-(R5-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="V1" pin="2"/>
+    </net>
+    <net code="24" name="HT">
+      <node ref="R4" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="VPump1" pin="4"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="25" name="Net-(C2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="V1" pin="8"/>
+    </net>
+    <net code="26" name="Net-(C1-Pad1)">
+      <node ref="V1" pin="3"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="27" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="Sweep1" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="Sweep1" pin="1"/>
+    </net>
+    <net code="28" name="Net-(C5-Pad1)">
+      <node ref="Treble1" pin="1"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="30" name="Net-(C10-Pad2)">
+      <node ref="C10" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="31" name="Net-(C8-Pad2)">
+      <node ref="Treble1" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="Gain1.1" pin="1"/>
+    </net>
+    <net code="32" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1"/>
+      <node ref="SW3" pin="3"/>
+    </net>
+    <net code="33" name="Net-(C6-Pad2)">
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="Sweep1" pin="3"/>
+    </net>
+    <net code="34" name="Net-(Bass1-Pad3)">
+      <node ref="Bass1" pin="3"/>
+      <node ref="Midrange1" pin="1"/>
+      <node ref="Midrange1" pin="2"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="35" name="Net-(Bass1-Pad1)">
+      <node ref="Treble1" pin="3"/>
+      <node ref="Bass1" pin="1"/>
+      <node ref="Bass1" pin="2"/>
+      <node ref="C6" pin="1"/>
+    </net>
+  </nets>
+</export>
