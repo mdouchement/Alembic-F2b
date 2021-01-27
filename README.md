@@ -73,6 +73,7 @@ Resource: http://www.valvewizard.co.uk/heater.html
   - https://github.com/KiCad
 - [DIYLC](http://diy-fever.com/software/diylc)
   - https://github.com/bancika/diy-layout-creator
+- [LiveSPICE](https://github.com/dsharlet/LiveSPICE)
 
 ## Resources
 
